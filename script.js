@@ -19,7 +19,7 @@ function updateRotation() {
     // Check if weight is greater than 100 kg
     if (weight > 100) {
         // Set duration to 15 seconds for the animation
-        const duration = 2; // seconds
+        const duration = 1; // seconds
         
         // Apply the animation
         rotatingImage.style.animation = `rotate ${duration}s linear infinite`;
